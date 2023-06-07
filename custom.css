@@ -1,19 +1,24 @@
 html{
-    background: url(background.avif); no-repeat center center fixed;
+    background: url(background2.avif); no-repeat center center fixed;
     background-size: cover;
+    
 }
 
 body{
     background-color: inherit;
+    overflow: hidden; /* Hide scrollbars */
+
+
 }
 
 .full-width{
-    min-height: 100vh;
+    min-height: 85vh;
 }
 
 form{
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0,0, 0, .2);
+
 }
 
 @media (max-width: 575.98px){
