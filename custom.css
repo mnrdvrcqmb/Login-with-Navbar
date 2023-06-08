@@ -6,10 +6,10 @@ html{
 
 body{
     background-color: inherit;
-    overflow: hidden; /* Hide scrollbars */
-
-
+    overflow: hidden;
+    
 }
+
 
 .full-width{
     min-height: 85vh;
@@ -18,11 +18,12 @@ body{
 form{
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0,0, 0, .2);
-
+    
 }
 
 @media (max-width: 575.98px){
     form{
         width: 100%;
+        
     }
 }
